@@ -216,3 +216,52 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# المفاتيح السرية والبيئات
+.env
+config_local.py
+*.env
+*.key
+*.pem
+
+# ملفات Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# ملفات قاعدة البيانات
+*.db
+*.sqlite
+*.sqlite3
+
+# Redis
+dump.rdb
+
+# ملفات السجلات
+*.log
+bot.log
+bot_ultimate.log
+
+# ملفات IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ملفات نظام التشغيل
+.DS_Store
+Thumbs.db
+
+# ملفات التصدير المؤقتة
+*.zip
+exports/
+temp/
+
+# بيانات المستخدمين
+user_data/
+sessions/
